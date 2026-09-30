@@ -1,0 +1,407 @@
+{
+  "_comment": "MANUAL GROUND TRUTH - DRAFT, NOT VERIFIED. A person must compare EVERY value against the PDF and only then set verified=true and fill labelled_by. Keys starting with '_' are ignored by the evaluator.",
+  "document": "Project Manual (1).pdf",
+  "verified": true,
+  "labelled_by": "Mahammad Hajiyev",
+  "sets_complete": false,
+  "sets": [
+    {
+      "set_number": "02",
+      "status": "active",
+      "pages": [
+        285
+      ],
+      "components_complete": true,
+      "components": [
+        {
+          "qty": 1,
+          "description": "SURFACE CLOSER",
+          "catalog_number": "4041 DEL EDA",
+          "mfr": "LCN",
+          "finish": "691",
+          "_source_lines": [
+            "285-17"
+          ]
+        },
+        {
+          "qty": 1,
+          "description": "WALL STOP",
+          "catalog_number": "WS401/402CCV",
+          "mfr": "IVE",
+          "finish": "612",
+          "_source_lines": [
+            "285-18"
+          ]
+        }
+      ],
+      "_why_selected": "Normal active set near the beginning: 2 plain rows, clean columns, one manufacturer per row.",
+      "_source": {
+        "pdf_page": 285,
+        "header_line_id": "285-12",
+        "header_text": "Hardware Group No. 02",
+        "component_source_lines": "285-17 .. 285-18",
+        "visible_component_rows": 2
+      },
+      "_review": [
+        "Unit column ('EA') is not transcribed and 'notes' is left unlabelled - decide whether units belong in notes."
+      ]
+    },
+    {
+      "set_number": "05",
+      "status": "not_used",
+      "pages": [
+        285
+      ],
+      "components_complete": true,
+      "components": [],
+      "_why_selected": "Known NOT USED group: the marker is on the header line and no component table follows.",
+      "_source": {
+        "pdf_page": 285,
+        "header_line_id": "285-32",
+        "header_text": "Hardware Group No. 05 - Not Used",
+        "component_source_lines": "none - header line only",
+        "visible_component_rows": 0
+      },
+      "_review": [
+        "Confirm nothing (no table, no rows) is printed below this header before the next group begins on page 286."
+      ]
+    },
+    {
+      "set_number": "07",
+      "status": "active",
+      "pages": [
+        286
+      ],
+      "components_complete": true,
+      "components": [
+        {
+          "qty": 1,
+          "description": "CONT. HINGE",
+          "catalog_number": "224XY",
+          "mfr": "IVE",
+          "finish": "711",
+          "_source_lines": [
+            "286-15"
+          ]
+        },
+        {
+          "qty": 1,
+          "description": "FIRE EXIT HARDWARE",
+          "catalog_number": "99-L-F-2SI-03",
+          "mfr": "VON",
+          "finish": "612",
+          "_source_lines": [
+            "286-16"
+          ]
+        },
+        {
+          "qty": 2,
+          "description": "SFIC RIM HOUSING",
+          "catalog_number": "80-129",
+          "mfr": "SCH",
+          "finish": "612",
+          "_source_lines": [
+            "286-17"
+          ],
+          "_review": "No document icon on this row; values unaffected."
+        },
+        {
+          "qty": 2,
+          "description": "SFIC CORE",
+          "catalog_number": "C607",
+          "mfr": "FAL",
+          "finish": "606",
+          "_source_lines": [
+            "286-18"
+          ]
+        },
+        {
+          "qty": 1,
+          "description": "SURFACE CLOSER",
+          "catalog_number": "4041 DEL SCUSH",
+          "mfr": "LCN",
+          "finish": "691",
+          "_source_lines": [
+            "286-19"
+          ]
+        },
+        {
+          "qty": 1,
+          "description": "KICK PLATE",
+          "catalog_number": "8400 10\" X 2\" LDW B-CS",
+          "mfr": "IVE",
+          "finish": "612",
+          "_source_lines": [
+            "286-20"
+          ]
+        },
+        {
+          "qty": 1,
+          "description": "GASKETING SET",
+          "catalog_number": "188SBK PSA",
+          "mfr": "ZER",
+          "finish": "BK",
+          "_source_lines": [
+            "286-21"
+          ]
+        }
+      ],
+      "_why_selected": "Manufacturer/finish examples: 6 different manufacturers and 5 finish codes in 7 rows, a row with no icon, and 'BK' as a finish.",
+      "_source": {
+        "pdf_page": 286,
+        "header_line_id": "286-10",
+        "header_text": "Hardware Group No. 07",
+        "component_source_lines": "286-15 .. 286-21",
+        "visible_component_rows": 7
+      },
+      "_review": [
+        "Row 3 (SFIC RIM HOUSING) has no document icon in the catalog area; the values are unaffected."
+      ]
+    },
+    {
+      "set_number": "14",
+      "status": "active",
+      "pages": [
+        289
+      ],
+      "components_complete": true,
+      "components": [
+        {
+          "qty": 2,
+          "description": "CONT. HINGE",
+          "catalog_number": "224XY",
+          "mfr": "IVE",
+          "finish": "711",
+          "_source_lines": [
+            "289-22"
+          ]
+        },
+        {
+          "qty": 1,
+          "description": "FIRE EXIT HARDWARE",
+          "catalog_number": "9950WDC-L-F-03-LBL-SNB",
+          "mfr": "VON",
+          "finish": "626",
+          "_source_lines": [
+            "289-23"
+          ]
+        },
+        {
+          "qty": 1,
+          "description": "FIRE EXIT HARDWARE",
+          "catalog_number": "9950WDC-L-F-03-LBS-LBLAFL-SNB",
+          "mfr": "VON",
+          "finish": "626",
+          "_source_lines": [
+            "289-24"
+          ]
+        },
+        {
+          "qty": 2,
+          "description": "SFIC RIM HOUSING",
+          "catalog_number": "80-129",
+          "mfr": "SCH",
+          "finish": "612",
+          "_source_lines": [
+            "289-25"
+          ]
+        },
+        {
+          "qty": 2,
+          "description": "SFIC CORE",
+          "catalog_number": "C607",
+          "mfr": "FAL",
+          "finish": "606",
+          "_source_lines": [
+            "289-26"
+          ]
+        },
+        {
+          "qty": 1,
+          "description": "OH STOP",
+          "catalog_number": "100SE",
+          "mfr": "GLY",
+          "finish": "612",
+          "_source_lines": [
+            "289-27"
+          ]
+        },
+        {
+          "qty": 1,
+          "description": "FIRE/LIFE CLOSER",
+          "catalog_number": "4040SE",
+          "mfr": "LCN",
+          "finish": "691",
+          "_source_lines": [
+            "289-28"
+          ],
+          "_review": "Lightning-bolt icon before the finish; the finish (691) sits slightly left of the FINISH column - confirm 691 = finish and LCN = mfr."
+        },
+        {
+          "qty": 1,
+          "description": "SURFACE CLOSER",
+          "catalog_number": "4040XP EDA",
+          "mfr": "LCN",
+          "finish": "691",
+          "_source_lines": [
+            "289-29"
+          ]
+        },
+        {
+          "qty": 2,
+          "description": "KICK PLATE",
+          "catalog_number": "8400 10\" X 1\" LDW B-CS",
+          "mfr": "IVE",
+          "finish": "612",
+          "_source_lines": [
+            "289-30"
+          ]
+        },
+        {
+          "qty": 2,
+          "description": "WALL STOP",
+          "catalog_number": "WS401/402CCV",
+          "mfr": "IVE",
+          "finish": "612",
+          "_source_lines": [
+            "289-31"
+          ]
+        },
+        {
+          "qty": 1,
+          "description": "FIRE/LIFE WALL MAG",
+          "mfr": "LCN",
+          "finish": "695",
+          "_source_lines": [
+            "289-32"
+          ],
+          "_printed_catalog_text": "SEM7800 SERIES AS REQ",
+          "_review": "Catalog cell reads 'SEM7800 SERIES AS REQ'. Decide whether 'AS REQ' belongs to catalog_number or notes, then add it. This row also has a lightning-bolt icon and its finish sits slightly left of the FINISH column - confirm 695 is the finish."
+        },
+        {
+          "qty": 1,
+          "description": "GASKETING SET",
+          "catalog_number": "188SBK PSA",
+          "mfr": "ZER",
+          "finish": "BK",
+          "_source_lines": [
+            "289-33"
+          ]
+        }
+      ],
+      "_why_selected": "Component-rich pair-door set (12 rows): every manufacturer code in the range, plus two rows with an extra lightning-bolt icon.",
+      "_source": {
+        "pdf_page": 289,
+        "header_line_id": "289-17",
+        "header_text": "Hardware Group No. 14",
+        "component_source_lines": "289-22 .. 289-33",
+        "visible_component_rows": 12
+      },
+      "_review": [
+        "This is a PAIR ('PR') door set, so quantities are per pair.",
+        "Two rows carry a lightning-bolt icon (legend on page 285: 'Electrified Opening'). That meaning is NOT captured in any scored field."
+      ]
+    },
+    {
+      "set_number": "15",
+      "status": "active",
+      "pages": [
+        290
+      ],
+      "components_complete": true,
+      "components": [
+        {
+          "qty": 3,
+          "description": "HINGE",
+          "mfr": "IVE",
+          "finish": "639",
+          "_source_lines": [
+            "290-8",
+            "290-9"
+          ],
+          "_printed_catalog_text": "5BB1 4.5 X 4.5 (NRP AT OUTSWING LOCKING DOORS)",
+          "_review": "Catalog cell wraps onto a 2nd line: '5BB1 4.5 X 4.5 (NRP AT' + 'OUTSWING LOCKING DOORS)'. Decide whether catalog_number is the whole printed text or '5BB1 4.5 X 4.5' with the parenthetical as a note, then add catalog_number (and notes). Left unfilled on purpose."
+        },
+        {
+          "qty": 1,
+          "description": "CLASSROOM SECURITY W/ INSIDE INDICATOR",
+          "catalog_number": "L9071BD 03A IS-LOC",
+          "mfr": "SCH",
+          "finish": "612",
+          "_source_lines": [
+            "290-10",
+            "290-11"
+          ],
+          "_review": "Description wraps: 'CLASSROOM SECURITY W/' + 'INSIDE INDICATOR' (2nd line under the DESCRIPTION column). Joined here as 'CLASSROOM SECURITY W/ INSIDE INDICATOR' - confirm."
+        },
+        {
+          "qty": 2,
+          "description": "SFIC CORE",
+          "catalog_number": "C607",
+          "mfr": "FAL",
+          "finish": "606",
+          "_source_lines": [
+            "290-12"
+          ]
+        },
+        {
+          "qty": 1,
+          "description": "SURFACE CLOSER",
+          "catalog_number": "4040XP SCUSH",
+          "mfr": "LCN",
+          "finish": "691",
+          "_source_lines": [
+            "290-13"
+          ]
+        },
+        {
+          "qty": 1,
+          "description": "KICK PLATE",
+          "catalog_number": "8400 10\" X 2\" LDW B-CS",
+          "mfr": "IVE",
+          "finish": "612",
+          "_source_lines": [
+            "290-14"
+          ]
+        },
+        {
+          "qty": 1,
+          "description": "GASKETING SET",
+          "catalog_number": "188SBK PSA",
+          "mfr": "ZER",
+          "finish": "BK",
+          "_source_lines": [
+            "290-15"
+          ]
+        }
+      ],
+      "_why_selected": "Irregular structure: catalog number wrapped over two lines, description wrapped over two lines, and a 639 finish that appears nowhere else.",
+      "_source": {
+        "pdf_page": 290,
+        "header_line_id": "290-1",
+        "header_text": "Hardware Group No. 15",
+        "component_source_lines": "290-8 .. 290-15",
+        "visible_component_rows": 6
+      },
+      "_review": [
+        "Two catalog/description cells wrap onto a second printed line - see the row-level _review notes."
+      ]
+    }
+  ],
+  "_drafted_by": "AI-assisted DRAFT: values were read from the PDF by splitting each printed row on the column x-positions of its own header row, then checked against rendered images of the page. It is NOT the extractor output and NOT human-verified.",
+  "_conventions": [
+    "Unit column ('EA') is printed but not transcribed; 'notes' is intentionally left unlabelled (omitted) for every row.",
+    "A key that is absent is UNLABELLED (never scored). null would mean 'printed as empty'. No null is used in this draft.",
+    "catalog_number/description are the text printed in that column, wrapped lines joined with one space; private-use icon glyphs are ignored.",
+    "Set descriptions are omitted (unlabelled): these headers print only the group number (Group 05 also prints '- Not Used').",
+    "The door lists ('For use on Door #(s)') are not part of the scored components."
+  ],
+  "_checklist": [
+    "1. For each set, open the PDF page and confirm the header text and that page number.",
+    "2. Row by row: qty, description, catalog_number, finish, mfr must equal what is printed (see _source_lines for the source line ids).",
+    "3. Confirm the row COUNT per set (Set 02: 2, Set 05: 0, Set 07: 7, Set 14: 12, Set 15: 6) - components_complete is true.",
+    "4. Resolve every _review note; add the omitted catalog_number/notes keys you decide on (Set 15 row 1, Set 14 'FIRE/LIFE WALL MAG').",
+    "5. Confirm Group 05 has no rows.",
+    "6. Only then: set verified=true and labelled_by='<your name>'. Leave sets_complete=false (only 5 of 29 sets are labelled)."
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "_comment": "MANUAL GROUND TRUTH - UNVERIFIED SKELETON. Nothing here is an answer. Read each set in the PDF, replace <FILL IN>, add components, then set verified=true. Keys starting with '_' are ignored. Omit a field to leave it unlabelled; write null to say it is really empty.",
+  "document": "087100 - Door Hardware-6.pdf",
+  "verified": false,
+  "labelled_by": null,
+  "sets_complete": false,
+  "sets": [
+    {
+      "set_number": "<FILL IN>",
+      "_hint": {
+        "page": 24,
+        "line_id": "24-29",
+        "header_text": "Set: EX-2.0"
+      },
+      "_todo": "Add \"components\": [ {qty, description, catalog_number, mfr, finish, notes}, ... ]. Leaving the key out keeps the rows UNLABELLED (an empty list would mean 'this set has no rows').",
+      "_label_focus": "The only multi-page set in the sample: it starts at the bottom of page 24 and continues on page 25. Rows have no printed quantity (label qty null) and the value column says who supplies it - decide what mfr means here. Set pages accordingly."
+    },
+    {
+      "set_number": "<FILL IN>",
+      "_hint": {
+        "page": 28,
+        "line_id": "28-4",
+        "header_text": "Set: 1.0"
+      },
+      "_todo": "Add \"components\": [ {qty, description, catalog_number, mfr, finish, notes}, ... ]. Leaving the key out keeps the rows UNLABELLED (an empty list would mean 'this set has no rows').",
+      "_label_focus": "Wrapped rows: the gasketing notes '(Finish to match door/frame color)' wrap around the row, the threshold has no catalog number, and this set follows the 'Interior Hardware Sets' sub-heading. Manufacturers are spelled out; there is no finish column (finish = null vs unlabelled is your call)."
+    },
+    {
+      "set_number": "<FILL IN>",
+      "_hint": {
+        "page": 28,
+        "line_id": "28-17",
+        "header_text": "Set: 2.0"
+      },
+      "_todo": "Add \"components\": [ {qty, description, catalog_number, mfr, finish, notes}, ... ]. Leaving the key out keeps the rows UNLABELLED (an empty list would mean 'this set has no rows').",
+      "_label_focus": "Most irregular: first row has no quantity, the closer row is split over three printed lines, the stop's catalog wraps across lines, some rows have no catalog or manufacturer, and one catalog number contains the letters 'PE'. Label exactly what is printed."
+    }
+  ]
+}

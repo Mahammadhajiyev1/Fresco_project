@@ -1,0 +1,8 @@
+# Runtime dependencies of the API / CLI. Same list as [project].dependencies in pyproject.toml (a test keeps them in sync).
+# The Streamlit UI needs requirements-ui.txt as well. Use this file when `pip install -e .` cannot build in place.
+pymupdf>=1.24.3
+pydantic>=2.6
+anthropic>=1.9
+fastapi>=0.110
+uvicorn>=0.29
+python-multipart

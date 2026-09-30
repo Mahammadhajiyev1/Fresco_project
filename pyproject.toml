@@ -1,0 +1,30 @@
+[project]
+name = "hwsets"
+version = "0.1.0"
+description = "Extract hardware sets from Division 08 specbooks"
+requires-python = ">=3.12"
+dependencies = [
+  "pymupdf>=1.24.3",
+  "pydantic>=2.6",
+  "anthropic>=1.9",
+  "fastapi>=0.110",
+  "uvicorn>=0.29",
+  "python-multipart",
+]
+
+[project.optional-dependencies]
+ui = ["streamlit>=1.35", "requests", "pandas"]          # only for the Streamlit review UI (not needed by the API)
+dev = ["pytest>=8", "httpx"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-p no:cacheprovider -m 'not live'"
+markers = ["live: calls the real Anthropic API (skipped by default)"]

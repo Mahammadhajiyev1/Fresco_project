@@ -1,0 +1,14 @@
+# Versions the offline test-suite (189 passed) was run with. OPTIONAL: pass with `pip install -c constraints-tested.txt ...`
+# to reproduce that environment exactly. Developed on Python 3.14.6; the code targets Python >= 3.12.
+# (A second clean venv on newer fastapi 0.142.0 also passed all tests.)
+pymupdf==1.28.2
+pydantic==2.13.5
+anthropic==1.9.0
+fastapi==0.141.1
+uvicorn==0.54.0
+python-multipart==0.0.32
+streamlit==1.64.0
+requests==2.34.2
+pandas==3.0.6
+pytest==9.1.1
+httpx==0.28.1

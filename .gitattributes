@@ -1,0 +1,4 @@
+# Normalise line endings across Windows / macOS / Linux checkouts; never touch binaries.
+* text=auto
+*.pdf binary
+*.png binary

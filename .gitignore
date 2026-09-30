@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Environments and secrets (never commit a real key; .env.example is the template)
+.venv/
+venv/
+.env
+.env.*
+*.env
+.envrc
+!.env.example
+# other local secret material
+*.pem
+*.key
+
+# Tool caches (pytest-cache-files-* are the stray folders pytest leaves when it cannot write .pytest_cache)
+.pytest_cache/
+pytest-cache-files-*/
+.mypy_cache/
+.ruff_cache/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Generated output: dry-run files, stored API results and uploaded PDFs
+outputs/
+
+# Source specbooks: large third-party documents, kept out of source control.
+# data/ground_truth/ (the human labels) IS tracked.
+data/*.pdf
+doc/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Personal interview / video preparation notes (not part of the deliverable)
+prep/

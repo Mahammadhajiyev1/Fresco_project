@@ -1,0 +1,8 @@
+{
+  "_comment": "MANUAL GROUND TRUTH - EMPTY TEMPLATE. Copy this file to data/ground_truth/<pdf name>.json. Nothing here is an answer. Fill it in by reading the PDF yourself, then set verified to true. Keys that start with an underscore are ignored by the evaluator.",
+  "document": "<name of the PDF, e.g. Project Manual (1).pdf>",
+  "verified": false,
+  "labelled_by": null,
+  "sets_complete": false,
+  "sets": []
+}

@@ -1,0 +1,4 @@
+# Extra dependencies for the Streamlit review UI only (same as the [ui] extra in pyproject.toml).
+streamlit>=1.35
+requests
+pandas

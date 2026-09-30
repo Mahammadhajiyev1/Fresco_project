@@ -1,0 +1,81 @@
+Fresco Coding Challenge (Hardware Sets)
+
+# Fresco Coding Challenge: Hardware Sets
+
+## **Objective**
+
+Build a system that extracts **Hardware Sets** from construction specification documents. Your input is a set of pages from a Division 08 (Openings) specbook. Your goal is to extract every hardware set into a structured format, including **where on the page** each set is located.
+
+## **Background**
+
+A **hardware set** is a named group of door hardware components (hinges, locksets, closers, etc.) assigned to doors in a building. They appear in specbooks as either:
+
+- **Section/list format:** A header (e.g., "SET #1 — ENTRANCE DOORS") followed by an indented list of components.
+- **Table format:** A tabular schedule where rows are components grouped under set headers.
+
+A typical project has 5–30 hardware sets, each with 3–15 components.
+
+## **Materials**
+
+Here are ~30 specbooks with hardware sets
+
+## **Expected Output**
+
+For each hardware set, output:
+
+- set_number — e.g., "1", "3A", "15"
+- description — optional heading, e.g., "ENTRANCE DOORS"
+- location — where the set lives: page number and bounding box or line range
+- components[] — each with: qty, description, catalog_number, mfr, finish, notes
+
+## **Caveats**
+
+**Manufacturer codes vs. finish codes**
+
+Short codes are used for both manufacturers and finishes, and some are **ambiguous**. For example, **"PE"** can mean Pemko (manufacturer) or Painted Enamel (finish). **"NO"** can mean Norton or the word "No." The correct interpretation depends on context — a column mostly containing MK, LCN, SCH is a manufacturer column; one with US26D, 630, BSP is a finish column. Your system should resolve ambiguity from surrounding context, not individual values.
+
+**Other difficulties**
+
+- **Set boundaries** aren't always obvious — sometimes just a blank row or subtle set number change.
+- **"NOT USED" sets** (marked N/A, NOT USED, etc.) should still be extracted.
+- **Multi-page sets** — a single set may span page breaks.
+- **Inconsistent column layouts** — different specbooks use different schemas.
+- **Missing quantities** — output null rather than guessing.
+
+## **Guidelines**
+
+- **Tools:** Any languages, libraries, and AI tools. Python recommended.
+- **Evaluation criteria:** Extraction accuracy, handling of caveats above (especially mfr vs. finish), code quality, and clarity of explanation.
+
+## **What to submit**
+
+- **Repository** with a clear README (setup + run instructions).
+- **Deployment** — a deployed link or clear local run steps.
+- **Demo video** (~3–5 min Loom): walk through your approach, tradeoffs, and show it working on 2–3 different spec pages.
+
+## **Success criteria**
+
+- Finds all of the hardware sets in the specbook.
+- Correctly extracts ~90%+ of hardware sets and their components.
+- Accurately maps fields to the right columns (especially mfr vs. finish).
+- Provides meaningful location data for each set.
+- Works across different specbook formats.
+
+## **Bonus points**
+
+- **Feedback UI** for correcting extraction mistakes.
+- **Confidence scores** on extracted fields.
+- **Spec/catalog code resolution** — resolving shorthand codes (e.g., code "A" → full component details) using a lookup table on the same page.
+
+
+
+
+
+
+
+
+
+
+
+
+
